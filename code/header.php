@@ -6,7 +6,7 @@
     </head>
 
     <header>
-        <h1>Blue Pages</h1>
+        <h1>Blue Pages Test</h1>
         
         <nav>
             <a href="#">Home</a>
