@@ -2,11 +2,25 @@
 ## Introduction
 This is the repository which will store all of the files related to the development of the Blue Pages website, which will run on WordPress.
 ## Set Up
-Follow these steps to begin developing with this code:
+The following steps will allow you to **download the project to your local machine** and develop with it:
+### Downloading / Cloning the Repository
+ 1. Download [GitHub Desktop](https://desktop.github.com/).
+ 2. Install GitHub Desktop by opening the executable file, and follow the set-up stages.
+ 3. At the top of **this page**, click on the green *Clone or Download* button, and click **Open in Desktop**
+ 4. Click on **Choose...**, and select a space on your PC to save this repository to.
+ 5. Click on **Clone**.
 
- 1. Steps to be added...
- 2. ^
- 3. ^
- 4. ^
- 5. ^
-```
+### Making and Saving Changes
+In this section, I've outlined how to 'save' any changes you make. These changes will directly affect the main project files on GitHub, allowing for us all to work on the same files together.
+**Key Terms**
+- Commit: This will save your changes **locally**. Once you commit, you still need to upload these changes to the GitHub Repository.
+- Push: This is the act of uploading any changes to the GitHub Repository. 
+
+1. Open the code you just saved in any code editor and make your desired changes. (As a test, just add a comment with your name or anything)
+2. Save these changes, then open up GitHub Desktop.
+3. The changes you made will appear in the application. **If you've finished everything you want to add/change**, write a 'Summary', (the first field). Write a quick headline to outline your changes. Then add a 'Description', (the second field). Write any necessary details about the change. For your first commit, write something like 'Test' so we can identify it later.
+4. Click on **Commit to master**. 
+
+Now we're ready to **push** our changes to the GitHub Repository:
+
+5. Click **Publish Branch**, then refresh **this page**. If successful, you should be able to see your GitHub name and the 'Test' commit that you did.
