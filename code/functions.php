@@ -5,7 +5,7 @@ function bp_files()
     // Load any files in here (for now, CSS)
     wp_enqueue_style('bp_styles', get_stylesheet_uri());
 
-    // wp_enqueue_script
+    // wp_enqueue_script - for any JavaScript
 }
 
 // Parameters:
