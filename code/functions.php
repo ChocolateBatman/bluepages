@@ -12,4 +12,14 @@ function bp_files()
 // Type of instruction
 // Function to call
 add_action('wp_enqueue_scripts', 'bp_files', NULL);
+
+// theme_features: generates a custom title for each page - visible in the browser tab
+function theme_features()
+{
+    add_theme_support('title-tag');
+}
+
+// Runs the function 'theme_features' once the theme has gone through its setup phase.
+add_action('after_setup_theme', 'theme_features'); 
+
 ?>

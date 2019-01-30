@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <?php wp_head(); ?>
+        <?php wp_head();?>
     </head>
 
     <header>
