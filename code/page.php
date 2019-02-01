@@ -1,6 +1,6 @@
 <?php
 get_header(); // Displaying the header - navigation and title
-
+//freddie
 while (have_posts()) // While there is a 'post' - (a page to display)
 {
     the_post(); ?> <!-- Get information about the next page -->
