@@ -36,11 +36,6 @@ header, footer
     background-color: #D3D3D3;
 }
 
-header
-{
-    border: 1px solid orange; /* leaving borders for now until I can see and work on them */
-}
-
 nav
 {
     background-color: #333; /* dark grey almost black */
@@ -64,18 +59,5 @@ main
 {
     max-width: 1000px;
     margin: 0 auto;
-
-    border: 2px solid red;
-    /* background-color: #D3D3D3; */
     background-color: #add8e6;
-}
-
-section
-{
-    border: 1px solid blue;
-}
-
-footer
-{
-    border: 1px solid green;
 }
