@@ -1,8 +1,7 @@
 /*
 Theme Name: bluepages
-Author: Yusuf
-Version: 1.0
-
+Author: Yusuf/Kev/Alan
+Version: 2.0
 */
 
 /* GENERIC STYLES 
@@ -19,7 +18,7 @@ body
 /* Creates a background behind the 'main' content */
 #main-content-container
 {
-    background-color: #c7c2c2;
+    background-color: #c7c2c2; /* light grey */
 }
 
 /* Removing spacing between paragraph lines */
@@ -33,22 +32,22 @@ p
 to clearly show the different website sections. */
 header, footer
 {
-    background-color: white;
+    background-color: #D3D3D3;
 }
 
 header
 {
-    border: 1px solid orange;
+    border: 1px solid orange; /* leaving borders for now until I can see and work on them */
 }
 
 nav
 {
-    background-color: #333;
+    background-color: #333; /* dark grey almost black */
 }
 
 nav a
 {
-    color: white;
+    color: #D3D3D3;
     display: inline-block;
     margin: 0px 5px;
     padding: 20px 15px;
@@ -57,7 +56,7 @@ nav a
 
 nav a:hover
 {
-    background-color: black;
+    background-color: #333;
 }
 
 main
@@ -66,7 +65,7 @@ main
     margin: 0 auto;
 
     border: 2px solid red;
-    background-color: white;
+    background-color: #D3D3D3;
 }
 
 section
