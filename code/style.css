@@ -18,7 +18,8 @@ body
 /* Creates a background behind the 'main' content */
 #main-content-container
 {
-    background-color: #c7c2c2; /* light grey */
+    background-color: #9bc2cf;
+
 }
 
 /* Removing spacing between paragraph lines */
@@ -35,14 +36,34 @@ header, footer
     background-color: #D3D3D3;
 }
 
+<<<<<<< HEAD
 header
 {
     border: 1px solid orange; /* leaving borders for now until I can see and work on them */
 }
 
+.MainpgLogo{
+	
+	float: left;
+	width:125px;
+	height:125px;
+	border-radius: 10px;
+	padding: 5px;
+	
+	
+}
+
+#title{
+	
+
+	
+}
+=======
+>>>>>>> c22f01adb861c0329f253fb134f14a6fbb68ba5b
 nav
 {
     background-color: #333; /* dark grey almost black */
+	clear: left;
 }
 
 nav a
@@ -63,17 +84,5 @@ main
 {
     max-width: 1000px;
     margin: 0 auto;
-
-    border: 2px solid red;
-    background-color: #D3D3D3;
-}
-
-section
-{
-    border: 1px solid blue;
-}
-
-footer
-{
-    border: 1px solid green;
+    background-color: #add8e6;
 }
