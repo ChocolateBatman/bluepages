@@ -36,7 +36,6 @@ header, footer
     background-color: #D3D3D3;
 }
 
-<<<<<<< HEAD
 header
 {
     border: 1px solid orange; /* leaving borders for now until I can see and work on them */
@@ -58,8 +57,7 @@ header
 
 	
 }
-=======
->>>>>>> c22f01adb861c0329f253fb134f14a6fbb68ba5b
+
 nav
 {
     background-color: #333; /* dark grey almost black */
