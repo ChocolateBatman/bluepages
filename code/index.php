@@ -18,6 +18,7 @@
             </section>
 
             <section id="page-content">
+
                 <h2>Featured List</h2>
                 <!-- <p>Any home page specific content</p> -->
 				
@@ -75,6 +76,7 @@
 		function currentSlide(n) {
 		  showSlides(slideIndex = n);
 		}
+
 
 		function showSlides(n) {
 		  var i;

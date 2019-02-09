@@ -63,11 +63,13 @@ header
 	
 }
 
+
 #phone_number{
 	float: right;
 	padding: 5px;
 	border: 1px;
 }
+
 
 nav
 {
@@ -94,6 +96,7 @@ main
     max-width: 1000px;
     margin: 0 auto;
     background-color: #add8e6;
+
 }
 
 /* Slideshow work */
