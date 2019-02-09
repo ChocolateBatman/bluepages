@@ -6,7 +6,7 @@
     </head>
 
     <header>
-	 <h1>Blue Pages</h1>
+	 
 
         <div id = "phone_number"><p> Call Us on: 01299 403055</p></div>
 
