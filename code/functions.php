@@ -22,4 +22,7 @@ function theme_features()
 // Runs the function 'theme_features' once the theme has gone through its setup phase.
 add_action('after_setup_theme', 'theme_features'); 
 
+
+
+
 ?>

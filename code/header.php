@@ -6,8 +6,14 @@
     </head>
 
     <header>
-        <h1>Blue Pages</h1>
+	 
+
+        <div id = "phone_number"><p> Call Us on: 01299 403055</p></div>
+
+	<img src= "<?php echo get_theme_file_uri('Image_Folder/MainPage/BluePages_Logo.png');?>" alt = "BluePages Logo" class = "MainpgLogo">
+      <div id = "title">  <h1>Blue Pages</h1> </div>
         
+
         <nav>
             <a href="#">Home</a>
             <a href="#">Categories</a>
