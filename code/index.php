@@ -4,8 +4,8 @@
 <!-- Body - contents of the page goes here -->
     <div id="main-content-container">
         <main>
-						<h1>Introduction</h1>
 						
+					<br>	
 					<div id="introText">
             <p>Welcome to the Blue Pages. This is a directory of property flood products and services put together to advise and inform you of what’s available to help reduce the risk of flooding to your home or business.</p>
 
@@ -16,10 +16,7 @@
             <p>Whilst the National Flood Forum does not endorse any of these products, we are happy to provide this platform in order to enable people to make informed decisions.</p>
 					 
 					</div>
-						<section id="important-info">
-                <h2>Ethos</h2>
-                <p>Blue Pages Ethos here</p>
-            </section>
+						
 
             <section id="page-content">
 
@@ -62,6 +59,32 @@
 			  <span class="dot" onclick="currentSlide(3)"></span> 
 			</div>
 		</section>
+
+		<section id="important-info">
+                <h2>Ethos</h2>
+                <p>You can find out if you’re:
+
+			at immediate risk of flooding - check current flood warnings and river and sea levels<br>
+			at risk of flooding in the next 5 days
+			in an area that’s likely to flood in the future - check your long term risk of flooding and view your area’s flood maps<br>
+			Check the risk of flooding if you’re in Scotland, Wales or Northern Ireland.<br>
+
+			Sign up for warnings<br>
+			Sign up for flood warnings if your property is at risk of flooding. This service is free.<br>
+
+			Get the flooding history for a property<br>
+			You can get the flooding history of a property based on Environment Agency records.<br>
+
+			Send an email to enquiries@environment-agency.gov.uk including:<br>
+
+			the property’s address or a map of the area if the postcode is not known (you can attach a file or link to an online map)
+			the period you’d like the report to cover<br>
+			your daytime telephone number<br>
+			You’ll be sent the report by email within 20 working days.<br>
+
+			The report is free unless it takes more than 18 hours to put together. If it takes longer, the Environment Agency will contact you. They may decide not to do the report. 
+			<br>If they do it, they charge £25 per hour, including for the first 18 hours.</p>
+            </section>
 
 		</main>
 	</div> <!-- End of 'main-content-container' div -->

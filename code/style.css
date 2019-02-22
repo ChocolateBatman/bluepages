@@ -15,12 +15,16 @@ body
     
     text-align: center;
     font-family: 'Roboto Condensed', sans-serif;
+    background-image: url("Image_Folder/concrete_wall.png");
+    background-repeat: repeat;
 }
 
 /* Creates a background behind the 'main' content */
 #main-content-container
 {
-    background-color: #eae9ef;
+  margin:auto;
+  margin-top: 10px;
+    
     
 
 }
@@ -37,14 +41,14 @@ p
 to clearly show the different website sections. */
 header, footer
 {
-    background-color: #D3D3D3;
+    background-color: #f5f5f5;
 }
 /*Div containing all footer text  */
 
 
 header
 {
-    border: 1px solid orange; /* leaving borders for now until I can see and work on them */
+    /* border: 1px solid orange; leaving borders for now until I can see and work on them */
 }
 
 .MainpgLogo{
@@ -69,7 +73,7 @@ header
 
 nav
 {
-    background-color: #333; /* dark grey almost black */
+    background-color: #3a6371; /* dark grey almost black */
 	clear: left;
 }
 
@@ -91,7 +95,8 @@ main
 {
     max-width: 80%;
     margin: 0 auto;
-    background-color: #74c3dc;
+    padding-bottom: 15px;
+    background-color: #3a6371;
 
 }
 
@@ -160,6 +165,19 @@ h2{
   margin: auto;
   max-width: 90%;
   padding: 5px;
+  margin-top: 10px;
+  background-color: whitesmoke;
+  border-style: outset;
+
+}
+
+#important-info{
+
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  max-width: 90%;
+  padding-bottom: 15px;
   background-color: whitesmoke;
   border-style: outset;
 
