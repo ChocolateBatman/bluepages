@@ -30,46 +30,42 @@ body
 }
 
 /* Removing spacing between paragraph lines */
-p
-{
-
-    padding: 0;
-    margin: 0;
+p {
+  padding: 0;
+  margin: 0;
 }
 
 /* NOTE: The borders are for testing purposes only,
 to clearly show the different website sections. */
+
 header, footer
 {
     background-color: #f5f5f5;
+
 }
+
 /*Div containing all footer text  */
-
-
-header
-{
-    /* border: 1px solid orange; leaving borders for now until I can see and work on them */
+header {
+  
+  /* leaving borders for now until I can see and work on them */
 }
 
-.MainpgLogo{
-	
-	float: left;
-	width:125px;
-	height:125px;
-	border-radius: 10px;
-	padding: 5px;
-	
-	
+.MainpgLogo {
+
+  float: left;
+  width: 125px;
+  height: 125px;
+  border-radius: 10px;
+  padding: 5px;
+
+
 }
 
-
-
-#phone_number{
-	float: right;
-	padding: 5px;
-	border: 1px;
+#phone_number {
+  float: right;
+  padding: 5px;
+  border: 1px;
 }
-
 
 nav
 {
@@ -77,18 +73,17 @@ nav
 	clear: left;
 }
 
-nav a
-{
-    color: #D3D3D3;
-    display: inline-block;
-    margin: 0px 5px;
-    padding: 20px 15px;
-    text-decoration: none;
+nav a {
+  color: #D3D3D3;
+  display: inline-block;
+  margin: 0px 5px;
+  padding: 20px 15px;
+  text-decoration: none;
 }
 
-nav a:hover
-{
-    background-color: #262525; /* Slighly darker than nav*/
+nav a:hover {
+  background-color: #262525;
+  /* Slighly darker than nav*/
 }
 
 main
@@ -101,9 +96,9 @@ main
 }
 
 /* Slideshow work */
-
-
-* {box-sizing:border-box}
+* {
+  box-sizing: border-box
+}
 
 /* Slideshow container */
 .advert_slideshow {
@@ -118,7 +113,8 @@ main
 }
 
 /* Next & previous buttons */
-.prev, .next {
+.prev,
+.next {
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -139,28 +135,29 @@ main
   right: 0;
   border-radius: 3px 0 0 3px;
 }
+
 /* Position the "prev button" to the left */
-.prev{
-	left: 0;
-	border-radius: 3px 0 0 3px;
+.prev {
+  left: 0;
+  border-radius: 3px 0 0 3px;
 }
 
 /* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
-
-h1{
+h1 {
 
   text-decoration: underline;
 }
 
-h2{
+h2 {
   text-decoration: underline
 }
 
-#introText{
+#introText {
 
   margin: auto;
   max-width: 90%;
@@ -182,6 +179,7 @@ h2{
   border-style: outset;
 
 }
+
 /* Caption text */
 .text {
   color: #f2f2f2;
@@ -214,7 +212,8 @@ h2{
   transition: background-color 0.6s ease;
 }
 
-.active, .dot:hover {
+.active,
+.dot:hover {
   background-color: #717171;
 }
 
@@ -227,11 +226,21 @@ h2{
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
 }
 
 @keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
 }
