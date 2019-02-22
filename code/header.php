@@ -14,13 +14,20 @@
       <div id = "title">  <h1>Blue Pages</h1> </div>
         
 
-        <nav>
-            <a href="#">Home</a>
-            <a href="#">Categories</a>
-            <a href="#">Add Listing</a>
-            <a href="#">My Account</a>
-            <a href="#">Contact Us</a>
-        </nav>
+      <nav>
+        <a href="#">Home</a>
+         <div class="dropdown">
+            <button class="dropbtn">Categories</button>
+            <div class="dropdown-content">
+                <a href="#">Flooding</a>
+                <a href="#">Slow the Flow</a>
+                <a href="#">Other</a>
+            </div>
+        </div>
+        <a href="#">Add Listing</a>
+        <a href="#">My Account</a>
+        <a href="#">Contact Us</a>
+    </nav>
     </header>
     <body>
         
