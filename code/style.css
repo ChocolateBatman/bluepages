@@ -15,7 +15,7 @@ body
     
     text-align: center;
     font-family: 'Roboto Condensed', sans-serif;
-    background-image: url("Image_Folder/concrete_wall.png");
+
     background-repeat: repeat;
 }
 
@@ -40,7 +40,7 @@ to clearly show the different website sections. */
 
 header, footer
 {
-    background-color: #f5f5f5;
+  
 
 }
 
