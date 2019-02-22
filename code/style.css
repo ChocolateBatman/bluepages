@@ -86,6 +86,7 @@ nav a
 .dropdown .dropbtn
 {
   font-size: 16px;
+  cursor: pointer;
   border: none;
   outline: none;
   color: #D3D3D3;
