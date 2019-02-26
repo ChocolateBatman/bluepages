@@ -291,3 +291,42 @@ h2 {
     opacity: 1
   }
 }
+
+/* INDIVIDUAL PAGE STYLING
+************************************ */
+#main-content
+{
+  width: 80%;
+  margin: 30px auto auto auto;
+}
+
+/* Styling for the container displaying category links */
+#page-links
+{
+  margin: 20px;
+  padding-bottom: 10px;
+  position: absolute;
+  left: 70%;
+  top: 27%;
+}
+
+/* Styling for displaying current and previous page */
+#breadcrumb
+{
+  padding: 10px;
+  margin: auto;
+}
+
+#page-links, #breadcrumb
+{
+  background-color: whitesmoke;
+  border-style: outset;
+  width: 300px;
+}
+
+/* FOOTER STYLING
+************************************ */
+footer
+{
+  margin-top: 50px;
+}

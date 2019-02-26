@@ -18,8 +18,9 @@ while (have_posts()) // While there is a 'post' - (a page to display)
     /* If a parent ID exists, the variable 'theParent' will hold True. That means the HTML content will display - only on the children pages. */
     if ($theParent) 
     { ?>
-        <a href="<?php echo get_permalink($theParent); ?>">Back to: <?php echo get_the_title($theParent);?> </a><p>Current page: <?php the_title(); ?></p>
-
+        <div id="breadcrumb">
+            <a href="<?php echo get_permalink($theParent); ?>">Back to: <?php echo get_the_title($theParent);?> </a><p>Current page: <?php the_title(); ?></p>
+        </div>
     <?php } ?> <!-- End If loop -->
     <!-- *** End: Breadcrumb navigation area *** -->
 
@@ -61,7 +62,9 @@ while (have_posts()) // While there is a 'post' - (a page to display)
     <!--  *** END: List of links *** -->
     
     <!-- Displaying the contents of the current page -->
+    <div id="main-content">
     <?php the_content(); ?>
+    </div>
 
 <!-- Ending the while loop and outputting the footer of the website -->
 <?php }
