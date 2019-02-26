@@ -324,6 +324,12 @@ h2 {
   width: 300px;
 }
 
+.page-parent #page-links
+{
+  position: static;
+  margin: 0 auto;
+}
+
 /* FOOTER STYLING
 ************************************ */
 footer
