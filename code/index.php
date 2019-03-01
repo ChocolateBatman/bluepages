@@ -20,7 +20,7 @@
 
             <section id="page-content">
 
-                <h2>Featured List</h2>
+                <h2 id="featured-heading">Featured List</h2>
                 <!-- <p>Any home page specific content</p> -->
 				
 				

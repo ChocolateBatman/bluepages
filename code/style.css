@@ -204,6 +204,10 @@ h2 {
   text-decoration: underline
 }
 
+#featured-heading {
+  color: whitesmoke;
+}
+
 #introText {
 
   margin: auto;
@@ -328,6 +332,28 @@ h2 {
 {
   position: static;
   margin: 0 auto;
+}
+
+li
+{
+  list-style-type: none;
+}
+
+#page-links a, #breadcrumb a
+{
+  text-decoration: none;
+  
+}
+
+#page-links a:visited, #breadcrumb a:visited
+{
+  color: black;
+}
+
+#page-links a:hover, #breadcrumb a:hover
+{
+  text-decoration: underline;
+  color: #3a6371;
 }
 
 /* FOOTER STYLING
