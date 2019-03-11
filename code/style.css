@@ -56,6 +56,13 @@ p {
   border: 1px;
 }
 
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+
+
 /* NAVIGATION STYLING
 ***************************** */
 nav
@@ -296,6 +303,8 @@ h2 {
   }
 }
 
+
+
 /* INDIVIDUAL PAGE STYLING
 ************************************ */
 #main-content
@@ -355,6 +364,19 @@ li
   text-decoration: underline;
   color: #3a6371;
 }
+
+#page-links > .page_item_has_children > a
+{
+  font-size: 20px;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+#page-links a:link, #page-links a:visited
+{
+  color: black;
+}
+
 
 /* FOOTER STYLING
 ************************************ */

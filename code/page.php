@@ -1,13 +1,13 @@
 <?php
 get_header(); // Displaying the header - navigation and title
-//freddie
+
 while (have_posts()) // While there is a 'post' - (a page to display)
 {
     the_post(); ?> <!-- Get information about the next page -->
 
     <h1><?php the_title(); ?></h1> <!-- Outputting the title of the current page -->
 
-    <!--  *** Start: Breadcrumb navigation area ***
+    <!--  *** Start: Breadcrumb navigation area *** 
     to display 'previous' page as a link for the user -->
     <?php
 
@@ -22,6 +22,7 @@ while (have_posts()) // While there is a 'post' - (a page to display)
             <a href="<?php echo get_permalink($theParent); ?>">Back to: <?php echo get_the_title($theParent);?> </a><p>Current page: <?php the_title(); ?></p>
         </div>
     <?php } ?> <!-- End If loop -->
+
     <!-- *** End: Breadcrumb navigation area *** -->
 
 
@@ -55,7 +56,8 @@ while (have_posts()) // While there is a 'post' - (a page to display)
         wp_list_pages( array(
             'title_li'=> NULL, // Hides the default heading given by the function
             'child_of' => $pageID, // Gets links to corresponding page 
-            'sort_column' => 'menu_order' // Sets ordering of links based on 'Order' attribute in WP panel
+            'sort_column' => 'menu_order', // Sets ordering of links based on 'Order' attribute in WP panel
+            'depth' => 2
         ));?>
     </div>
     <?php } ?>
