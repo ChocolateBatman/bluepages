@@ -58,7 +58,7 @@ p {
 
 ul {
   padding: 0;
-  list-style-type: none;
+  /* list-style-type: none; */
 }
 /* NAVIGATION STYLING
 ***************************** */
@@ -340,7 +340,12 @@ h2 {
   margin: 0 auto;
 }
 
-li
+#page-links li
+{
+  list-style-type: none;
+}
+
+#page-links ul
 {
   list-style-type: none;
 }
