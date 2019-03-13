@@ -7,13 +7,17 @@
 						
 					<br>	
 					<div id="introText">
+						<h2>Introduction</h2>
             <p>Welcome to the Blue Pages. This is a directory of property flood products and services put together to advise and inform you of what’s available to help reduce the risk of flooding to your home or business.</p>
 
-            <p>In the directory you will be able to search different categories of flood products and services. At the top of each category page you will find a short description of what the product or service should do. Where applicable, the relevant standards or criteria that should be met is also detailed.</p>
+						<p>We all have a role in managing water.  Measures to stop water getting in to your property or reducing its impact if it does get in, will be most appropriate for some. But for the rest of us, slowing water down through water butts and leaky raised flower beds and greywater systems will not only reduce the risk of flooding for us and our neighbours, but will also provide us with water during dry period.  The range of things available is huge, with something for everyone.  This directory is the only place where the full range of product types can be seen.</p>
 
-            <p>If you have any questions you can contact the National Flood Forum Helpline on 01299 403055.</p>
+            <p>At the top of each category page you will find a short description of what the product or service should do. Where applicable, the relevant standards or criteria that should be met is also detailed.</p>
 
-            <p>Whilst the National Flood Forum does not endorse any of these products, we are happy to provide this platform in order to enable people to make informed decisions.</p>
+						<p>If you have any questions you can contact the National Flood Forum Helpline on 01299 403055.</p>
+
+						<p>Please note that the National Flood Forum does <u>not</u> endorse any of these products or services.  We are happy to provide this platform to help people to make informed decisions, but for some of these you may wish to take independent advice.  Please note that organisations pay to advertise their products and services.
+						</p>
 					 
 					</div>
 						
