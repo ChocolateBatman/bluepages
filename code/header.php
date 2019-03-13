@@ -22,9 +22,9 @@
                         <a href="<?php echo site_url('index.php/other'); ?>">Other</a>
                     </div>
                 </div>
-                <a href="#">Add Listing</a>
-                <a href="#">My Account</a>
-                <a href="#">Contact Us</a>
+                <a href="<?php echo site_url('index.php/add-listings'); ?>">Add Listing</a>
+                <a href="<?php echo site_url('index.php/my-account'); ?>">My Account</a>
+                <a href="<?php echo site_url('index.php/contact-us'); ?>">Contact Us</a>
             </nav>
         </header>
     
