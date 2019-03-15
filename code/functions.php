@@ -1,28 +1,23 @@
 <?php
-// Function to load files for Blue Pages website
+// Function bp_files: load CSS file for Blue Pages website
 function bp_files()
 {
-    // Load any files in here (for now, CSS)
+    // Loads CSS file to display on site
     wp_enqueue_style('bp_styles', get_stylesheet_uri());
-
-    // wp_enqueue_script - for any JavaScript
 }
 
 // Parameters:
-// Type of instruction
-// Function to call
+// Type of instruction - wp_enqueue_scripts
+// Function to call - bp_files
+// Function add_action: Loads the function 'bp_files'
 add_action('wp_enqueue_scripts', 'bp_files', NULL);
 
-// theme_features: generates a custom title for each page - visible in the browser tab
+// Function theme_features: generates a custom title for each page - visible in the browser tab
 function theme_features()
 {
     add_theme_support('title-tag');
 }
 
-// Runs the function 'theme_features' once the theme has gone through its setup phase.
+// Function add_action: Runs the function 'theme_features' once the theme has gone through its setup phase.
 add_action('after_setup_theme', 'theme_features'); 
-
-
-
-
 ?>

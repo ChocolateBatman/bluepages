@@ -1,8 +1,7 @@
 <footer>
-
 	<div id ="footer_text">
 
-        <p>© <?php echo date('Y');?> National Flood Forum: a Company Limited by Guarantee. Registered in England and Wales No. 4349401.</p>
+        <p>© <?php /* Display current year in PHP */ echo date('Y');?> National Flood Forum: a Company Limited by Guarantee. Registered in England and Wales No. 4349401.</p>
 
         <p>Registered Office: Old Snuff Mill Warehouse, Park Lane, Bewdley, Worcestershire, DY12 2EL. VAT Registered No: 786 2681 83</p>
 
@@ -12,7 +11,6 @@
     </div>
 </footer>
 
-
-<?php wp_footer(); ?>
+<?php /* Load in footer contents */wp_footer(); ?>
 </body>
 </html>
